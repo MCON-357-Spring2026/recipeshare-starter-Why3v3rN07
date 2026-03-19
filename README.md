@@ -90,6 +90,7 @@ flask db init
 flask db migrate -m "Create user and recipe tables"
 flask db upgrade
 ```
+(starts flask, creates a migration script in migrations/versions, and then applies the migration)
 
 ## 6. Seed the database
 
